@@ -3,3 +3,10 @@ body {
   background-position: top;
   background-repeat: no-repeat;
 }
+
+#title {
+  height: 200px;
+  background-image: url(images/title.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
