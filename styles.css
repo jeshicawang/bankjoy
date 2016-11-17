@@ -29,14 +29,18 @@ body {
 .lnr-phone-handset {
   position: relative;
   top: 2px;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .lnr-envelope {
   position: relative;
   top: 1px;
   font-size: 20px;
-  margin-right: 5px;
+  margin-right: 3px;
+}
+
+#contact a:hover {
+  color: #516FDD;
 }
 
 #title {
