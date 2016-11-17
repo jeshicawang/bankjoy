@@ -7,6 +7,15 @@ body {
   font-family: 'Century Gothic';
 }
 
+#container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(61,70,100,.86);
+}
+
 #header {
   text-align: right;
 }
