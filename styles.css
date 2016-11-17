@@ -26,20 +26,47 @@ body {
 }
 
 #title {
-  height: 200px;
+  height: 75px;
   background-image: url(images/title.png);
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 30px;
 }
 
 #slogan {
   font-size: 48px;
+  margin-bottom: 25px;
 }
 
 #content {
   text-transform: uppercase;
   font-size: 12px;
-  margin-bottom: 60px;
+  margin-bottom: 65px;
+}
+
+#phones {
+  position: relative;
+  height: 678px;
+}
+
+.phone {
+  position: relative;
+}
+
+#phone-center {
+  z-index: 2;
+}
+
+#phone-left {
+  z-index: 1;
+  top: 46px;
+  left: 70px;
+}
+
+#phone-right {
+  z-index: 1;
+  top: 46px;
+  right: 70px;
 }
 
 a {
@@ -47,15 +74,17 @@ a {
   text-decoration: none;
 }
 
-#button:link {
-  margin-top: 2px;
+div.button {
+  height: 90px;
+}
+
+a.button:link {
   padding: 15px 32px 15px 32px;
   background-color: #516FDD;
   border-radius: 50px;
 }
 
-#button:hover {
-  margin-top: 0px;
+a.button:hover {
   font-size: 105%;
   padding: 17px 34px 17px 34px;
 }
