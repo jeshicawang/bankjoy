@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/background.jpg);
+  background-image: url(https://bankjoy.com/assets/images/backgrounds/background.jpg);
   background-position: top;
   background-repeat: no-repeat;
   text-align: center;
@@ -45,9 +45,10 @@ body {
 
 #title {
   height: 75px;
-  background-image: url(images/title.png);
+  background-image: url(https://bankjoy.com/assets/images/logos/logo-light@2x.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 240px;
   margin-top: 25px;
 }
 
@@ -69,6 +70,8 @@ body {
 
 .phone {
   position: relative;
+  height: 672px;
+  width: 330px;
 }
 
 #phone-center {
