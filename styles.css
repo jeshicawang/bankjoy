@@ -75,24 +75,28 @@ body {
 
 .phone {
   position: relative;
-  height: 672px;
-  width: 330px;
 }
 
 #phone-center {
   z-index: 2;
+  height: 672px;
+  width: 330px;
 }
 
 #phone-left {
   z-index: 1;
-  top: 46px;
-  left: 70px;
+  height: 632px;
+  width: 310px;
+  top: 15px;
+  left: 69px;
 }
 
 #phone-right {
   z-index: 1;
-  top: 46px;
-  right: 70px;
+  height: 632px;
+  width: 310px;
+  top: 15px;
+  right: 69px;
 }
 
 a {
