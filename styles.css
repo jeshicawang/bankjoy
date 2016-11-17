@@ -44,6 +44,31 @@ body {
   margin-bottom: 65px;
 }
 
+#phones {
+  position: relative;
+  height: 678px;
+}
+
+.phone {
+  position: relative;
+}
+
+#phone-center {
+  z-index: 2;
+}
+
+#phone-left {
+  z-index: 1;
+  top: 46px;
+  left: 70px;
+}
+
+#phone-right {
+  z-index: 1;
+  top: 46px;
+  right: 70px;
+}
+
 a {
   color: white;
   text-decoration: none;
