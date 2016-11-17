@@ -45,9 +45,10 @@ body {
 
 #title {
   height: 75px;
-  background-image: url(images/title.png);
+  background-image: url(https://bankjoy.com/assets/images/logos/logo-light@2x.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 240px;
   margin-top: 25px;
 }
 
