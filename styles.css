@@ -2,6 +2,18 @@ body {
   background-image: url(images/background.jpg);
   background-position: top;
   background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-family: 'Century Gothic';
+}
+
+#header {
+  text-align: right;
+}
+
+.contact {
+  display: inline-block;
+  margin: 15px;
 }
 
 #title {
@@ -9,4 +21,13 @@ body {
   background-image: url(images/title.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#slogan {
+  font-size: 48px;
+}
+
+#content {
+  text-transform: uppercase;
+  font-size: 12px;
 }
