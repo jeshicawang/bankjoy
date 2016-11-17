@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/background.jpg);
+  background-image: url(https://bankjoy.com/assets/images/backgrounds/background.jpg);
   background-position: top;
   background-repeat: no-repeat;
   text-align: center;
@@ -69,6 +69,8 @@ body {
 
 .phone {
   position: relative;
+  height: 672px;
+  width: 330px;
 }
 
 #phone-center {
