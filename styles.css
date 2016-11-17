@@ -39,4 +39,16 @@ body {
 #content {
   text-transform: uppercase;
   font-size: 12px;
+  margin-bottom: 60px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#button {
+  padding: 15px 32px 15px 32px;
+  background-color: #516FDD;
+  border-radius: 50px;
 }
