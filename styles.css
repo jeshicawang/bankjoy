@@ -16,13 +16,27 @@ body {
   background-color: rgba(61,70,100,.86);
 }
 
-#header {
+#contact {
   text-align: right;
+  margin: 28px;
 }
 
-.contact {
+.contact-link {
   display: inline-block;
-  margin: 15px;
+  margin: 10px;
+}
+
+.lnr-phone-handset {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+.lnr-envelope {
+  position: relative;
+  top: 1px;
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 #title {
@@ -30,7 +44,7 @@ body {
   background-image: url(images/title.png);
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 #slogan {
