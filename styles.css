@@ -119,8 +119,8 @@ a {
 div.button { margin-bottom: 60px; }
 
 a.button:link {
-  padding: 15px 35px 15px 35px;
-  background-color: #516FDD;
+  padding: 15px 35px;
+  background-color: #516fdd;
   border-radius: 50px;
 }
 
@@ -130,12 +130,14 @@ a.button:link {
     transform: scale(1.1);
   }
 }
+
 @keyframes hvr-pop {
   50% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 }
+
 .hvr-pop {
   display: inline-block;
   vertical-align: middle;
@@ -143,7 +145,10 @@ a.button:link {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
 }
-.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+
+.hvr-pop:hover,
+.hvr-pop:focus,
+.hvr-pop:active {
   -webkit-animation-name: hvr-pop;
   animation-name: hvr-pop;
   -webkit-animation-duration: .3s;
