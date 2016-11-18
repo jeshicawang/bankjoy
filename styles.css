@@ -78,7 +78,7 @@ body {
 }
 
 #phone-center {
-  z-index: 2;
+  z-index: 3;
   height: 672px;
   width: 330px;
 }
@@ -97,6 +97,17 @@ body {
   width: 310px;
   top: 15px;
   right: 69px;
+}
+
+#shadow {
+  z-index: 2;
+  top: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 568px;
+  position: absolute;
+  box-shadow: 0 0 125px 0px black;
 }
 
 a {
