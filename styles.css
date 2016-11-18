@@ -1,6 +1,4 @@
-html {
-  height: 100%;
-}
+html { height: 100%; }
 
 body {
   font-family: 'Century Gothic';
@@ -44,9 +42,7 @@ body {
   font-size: 20px;
 }
 
-#contact a:hover {
-  color: #516fdd;
-}
+#contact a:hover { color: #516fdd; }
 
 #title {
   height: 75px;
@@ -73,9 +69,7 @@ body {
   height: 678px;
 }
 
-.phone {
-  position: relative;
-}
+.phone { position: relative; }
 
 #phone-center {
   z-index: 3;
@@ -115,9 +109,7 @@ a {
   text-decoration: none;
 }
 
-div.button {
-  height: 90px;
-}
+div.button { height: 90px; }
 
 a.button:link {
   padding: 15px 32px 15px 32px;
