@@ -1,5 +1,6 @@
-var now = new Date();
+var date = new Date();
+var futureDate = new Date().setDate(date.getDate()+30);
+date = new Date(futureDate);
 var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
-var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
-var today =  months[now.getMonth()] + " " + date;
+var today =  months[date.getMonth()] + " " + date.getDate();
 document.write(today);
