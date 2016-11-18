@@ -5,6 +5,7 @@ body {
   color: #fff;
   text-align: center;
   font-size: 18px;
+  font-weight: 200;
   background-image: url(https://bankjoy.com/assets/images/backgrounds/background.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -64,8 +65,10 @@ body {
 
 #content {
   margin-bottom: 50px;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d6d6d6;
 }
 
 #phones {
