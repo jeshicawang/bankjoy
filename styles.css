@@ -75,24 +75,39 @@ body {
 
 .phone {
   position: relative;
+}
+
+#phone-center {
+  z-index: 3;
   height: 672px;
   width: 330px;
 }
 
-#phone-center {
-  z-index: 2;
-}
-
 #phone-left {
   z-index: 1;
-  top: 46px;
-  left: 70px;
+  height: 632px;
+  width: 310px;
+  top: 15px;
+  left: 69px;
 }
 
 #phone-right {
   z-index: 1;
-  top: 46px;
-  right: 70px;
+  height: 632px;
+  width: 310px;
+  top: 15px;
+  right: 69px;
+}
+
+#shadow {
+  z-index: 2;
+  top: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 568px;
+  position: absolute;
+  box-shadow: 0 0 125px 0px black;
 }
 
 a {
